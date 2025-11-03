@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开孔定向蓝牙通信应用</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            background-color: #007bff;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #007bff;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        
+        .feature-list {
+            list-style: none;
+        }
+        
+        .feature-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s;
+         }
+         
+         .download-btn:hover {
+             background-color: #0056b3;
+         }
+         
+         footer {
+             text-align: center;
+             margin-top: 50px;
+             padding-top: 20px;
+             border-top: 1px solid #eee;
+             color: #666;
+         }
+         
+         @media (max-width: 768px) {
+             body {
+                 padding: 10px;
+             }
+             
+             .container {
+                 padding: 20px;
+             }
+             
+             h1 {
+                 font-size: 2em;
+             }
+         }
+     </style>
+ </head>
+ <body>
+     <div class="container">
+         <header>
+             <div class="app-icon">📱</div>
+             <h1>开孔定向蓝牙通信应用</h1>
+             <p class="tagline">专业的低功耗蓝牙通信解决方案</p>
+         </header>
+         
+         <section id="features">
+             <h2>主要功能</h2>
+             <ul class="feature-list">
+                 <li>支持开孔定向低功耗蓝牙通信</li>
+                 <li>精准的蓝牙设备定向连接</li>
+                 <li>高效稳定的数据传输</li>
+                 <li>适用于多种物联网场景</li>
+                 <li>简洁直观的用户界面</li>
+                 <li>低功耗设计，延长设备续航</li>
+             </ul>
+         </section>
+         
+         <section id="usage">
+             <h2>应用场景</h2>
+             <ul class="feature-list">
+                 <li>工业设备远程控制</li>
+                 <li>智能家居设备连接</li>
+                 <li>物联网设备通信</li>
+                 <li>蓝牙传感器数据采集</li>
+                 <li>移动设备间近距离通信</li>
+             </ul>
+         </section>
+         
+         <section class="download-section">
+             <h2>下载应用</h2>
+             <p>扫描二维码或点击按钮下载最新版本</p>
+             <a href="#" class="download-btn">下载 APK 文件</a>
+             <p style="margin-top: 15px; color: #666;">版本：v1.0.0 | 大小：5.2MB | 更新日期：2025年</p>
+         </section>
+         
+         <section id="about">
+             <h2>关于应用</h2>
+             <p>这是一款专注于开孔定向低功耗蓝牙通信的应用，由个人开发者独立开发。应用采用先进的蓝牙通信技术，为用户提供稳定、高效的蓝牙连接解决方案。</p>
+             <p>我们致力于为物联网领域提供简单易用的通信工具，帮助用户快速实现设备间的蓝牙连接和数据传输。</p>
+         </section>
+         
+         <footer>
+             <p>开发者：洛 | 联系方式：your-email@example.com</p>
+             <p>GitHub：https://github.com/LUO123JDJD/bluetooth-communication-app</p>
+             <p>&copy; 2024 开孔定向蓝牙通信应用. 保留所有权利.</p>
+         </footer>
+     </div>
+ </body>
+ </html>
